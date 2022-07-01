@@ -7,6 +7,9 @@ module.exports = {
     path: path.join(__dirname, "client/dist"),
     filename: "app.js",
   },
+  resolve: {
+    extensions: [".wasm", ".mjs", ".js", ".json", ".jsx"],
+  },
   module: {
     rules: [
       {
