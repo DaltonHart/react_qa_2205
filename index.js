@@ -19,7 +19,7 @@ const PORT = 1337;
 app.use(express.json());
 
 // serve static directory
-app.use(express.static(__dirname + "/client"));
+app.use(express.static(__dirname + "/client/dist"));
 
 /* ==== Route Handlers === */
 // app.method("url", controller(req,res,next))
